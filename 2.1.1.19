@@ -1,0 +1,48 @@
+print("    *")
+print("   * *")
+print("  *   *")
+print(" *     *")
+print("***   ***")
+print("  *   *")
+print("  *   *")
+print("  *****")
+
+#Code to reduce the use of print() function using 
+
+print("     *\n", "   * *\n", "  *   *\n", " *     *\n", "***   ***\n", "  *   *\n", "  *   *\n", "  *****\n")
+
+#Code to make the arrow twice as big satyin in the proportion
+
+print("        **         " )
+print("       *  *        " )
+print("      *    *       " )
+print("     *      *      " )
+print("    *        *     " )
+print("   *          *    " )
+print("  *            *   " )
+print(" *              *  " )
+print("******      ****** " )
+print("     *      *      " )
+print("     *      *      " )
+print("     *      *      " )
+print("     *      *      " )
+print("     *      *      " )
+print("     ********      " )
+
+#Code to duplicate the arrow side by side using the multiplication 
+
+print("        **         " *2)
+print("       *  *        " *2)
+print("      *    *       " *2)
+print("     *      *      " *2)
+print("    *        *     " *2)
+print("   *          *    " *2)
+print("  *            *   " *2)
+print(" *              *  " *2)
+print("******      ****** " *2)
+print("     *      *      " *2)
+print("     *      *      " *2)
+print("     *      *      " *2)
+print("     *      *      " *2)
+print("     *      *      " *2)
+print("     ********      " *2)
