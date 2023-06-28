@@ -11,7 +11,7 @@ print("  *****")
 
 print("     *\n", "   * *\n", "  *   *\n", " *     *\n", "***   ***\n", "  *   *\n", "  *   *\n", "  *****\n")
 
-#Code to make the arrow twice as big satyin in the proportion
+#Code to make the arrow twice as big staying in the proportion
 
 print("        **         " )
 print("       *  *        " )
@@ -29,7 +29,7 @@ print("     *      *      " )
 print("     *      *      " )
 print("     ********      " )
 
-#Code to duplicate the arrow side by side using the multiplication 
+#Code to duplicate the arrow side by side using the multiplication *2
 
 print("        **         " *2)
 print("       *  *        " *2)
