@@ -1,0 +1,17 @@
+#End time calculation
+
+hour = int(input("Starting time (hours): "))
+mins = int(input("Starting time (minutes): "))
+dura = int(input("Event duration (minutes): "))
+
+# Write your code here.
+
+# finish time for the event in the format hh:mm
+
+end_hour = hour + (dura // 60) #Floor division of the total elapsed time
+end_minute = mins + (dura % 60) #Remainder of the minutes after modulo division
+end_hour += end_minute // 60 #End hour after adding hours from the elapsed time
+end_minute = end_minute % 60 #Final end minute which is the remainder after being devided by 60 
+end_hour = end_hour % 24 #Finally this is used to convert 24:00 to 00:00
+
+print("{}:{}".format(end_hour, end_minute)) #Formating strings using vurly braces.
