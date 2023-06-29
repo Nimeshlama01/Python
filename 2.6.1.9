@@ -4,8 +4,11 @@ a = float (input("Input value for a: "))# input a float value for variable a her
 b = float (input("Input value for b: "))# input a float value for variable b here
 
 print ("Addition of those values: ", a+b)# output the result of addition here
-print ("Substraction of those values: \n", "a-b=", a-b,"\n","b-a=", b-a)# output the result of subtraction here
+print ("Substraction of those values: ", (-(a-b)*(b-a))**0.5)# output the result of subtraction here which will be always positive regardless of bigger or smaller
 print ("Multiplication of those values: ", a*b)# output the result of multiplication here
+
 print ("Division of those values: ", round((a/b), 2))# output the result of division here
 
+print ("a exponent b: ", round((a**b),2)) # Output the result of a to the power of b
+print ("Floor division of those values: ", a//b) #Output the result of floor division when a is divided by b 
 print("\nThat's all, folks!")
