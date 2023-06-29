@@ -1,0 +1,7 @@
+#Operators and expression
+
+x = float(input("Enter value for x: ")) # Input value for x 
+
+y = 1/(x+1/(x+1/((x+(1/x))))) #Calculates the value of y using the formula given
+
+print("y =", y) #Prints the value of y after the calculation
