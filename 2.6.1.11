@@ -15,3 +15,22 @@ end_minute = end_minute % 60 #Final end minute which is the remainder after bein
 end_hour = end_hour % 24 #Finally this is used to convert 24:00 to 00:00
 
 print("{}:{}".format(end_hour, end_minute)) #Formating strings using vurly braces.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+#2.6.1.11 LAB: Operators and expressions
+hour = int(input("Starting time (hours): "))
+mins = int(input("Starting time (minutes): "))
+dura = int(input("Event duration (minutes): "))
+
+ 
+
+# Write your code here.
+# End time calculation
+total_minutes = hour*60 + mins + dura #adding up total time in minutes
+end_hour = (total_minutes//60)%24 #ensuring that the hour value stays within the range of 0-23.
+end_minute = total_minutes%60 #The end minute is obtained by taking the remainder when the total minutes are divided by 60.
+
+ 
+
+print(end_hour, ":", end_minute, sep="") #printing end time in hr:min format
