@@ -2,6 +2,8 @@
 
 income = float(input("Enter the annual income: "))
 
+jury_service = input ("Did yod do Jury service? ")
+
 #if statement when the income is less than the miminum limit 
 
 if income < 85528:
@@ -19,6 +21,9 @@ tax = round(tax, 0)
 if tax < 0:
     tax = 0.0
 
+if jury_service == "yes":
+    tax = tax / 2
+    
 #print statement to output the result of the calculation 
 
 print("The tax is:", tax, "thalers")
