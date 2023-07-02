@@ -1,7 +1,6 @@
-
 #input parameter for flower
 
-a = input ("")
+a = input ("Enter your flower: ")
 
 #if statement to set the condition 
 
