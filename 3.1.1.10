@@ -1,0 +1,19 @@
+
+#input parameter for flower
+
+a = input ("")
+
+#if statement to set the condition 
+
+if a == "Spathiphyllum":
+    print ('"Yes - Spathiphyllum is the best plant ever!"')
+
+#elif statement for second condition
+    
+elif a == "spathiphyllum":
+    print ('"No, I want a big Spathiphyllum!"')
+
+#else and final condition when above conditions are not met
+
+else:
+    print ('"Spathiphyllum! Not', a, '!"')
