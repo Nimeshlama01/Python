@@ -1,0 +1,24 @@
+#input income for the citizens
+
+income = float(input("Enter the annual income: "))
+
+#if statement when the income is less than the miminum limit 
+
+if income < 85528:
+    tax = (0.18 * income)-(556.02)
+
+#else statement when the income is more than 85528
+
+else:
+    tax = 14839.02 + (0.32 * (income - 85528))
+
+tax = round(tax, 0)
+
+#if statement to state no tax return policy
+
+if tax < 0:
+    tax = 0.0
+
+#print statement to output the result of the calculation 
+
+print("The tax is:", tax, "thalers")
