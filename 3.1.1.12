@@ -1,17 +1,23 @@
+
+#year input
 year = int(input("Enter a year: "))
 
-#
-# Write your code here.
-#	
+
+#to indentify the common year 
 if year % 4 != 0:
     print ("Common year")
 
+#to indentify the leap year 
 elif year % 100 != 0:
     print ("its a leap year")
 
+#to indentify the common year 
 elif year % 400 != 0:
     print ("its a common year")
-    
+       
+#to indentify the leap year 
 else:
-    
-    ("its a leap year")
+    print ("its a leap year")
+
+if year < 1714:
+    print ("Not within the Gregorian calendar period")
