@@ -1,0 +1,38 @@
+# Defining the secret number
+
+secret_number = 777
+
+# Welcome message on a multiple line
+
+print(
+"""
++================================+
+| Welcome to my game, muggle!    |
+| Enter an integer number        |
+| and guess what number I've     |
+| picked for you.                |
+| So, what is the secret number? |
++================================+
+""")
+
+# Int to guess the number
+
+Guess_Num = int (input("Guess the number: "))
+
+# While loop to define the getting close message
+
+while Guess_Num == 7:
+        
+    print ("Getting close muggle")
+    Guess_Num = int (input("Guess the number: "))
+
+# While loop to when the guessed number in not right
+
+while Guess_Num != 777:
+    
+    print ("Ha ha! You're stuck in my loop!")
+    Guess_Num = int (input("Guess the number: "))
+
+# Final message when the number is right
+else: 
+    print ("Well done, muggle! You are now free.")
