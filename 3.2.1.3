@@ -19,19 +19,20 @@ print(
 
 Guess_Num = int (input("Guess the number: "))
 
-# While loop to define the getting close message
-
-while Guess_Num == 7:
-        
-    print ("Getting close muggle")
-    Guess_Num = int (input("Guess the number: "))
-
 # While loop to when the guessed number in not right
 
-while Guess_Num != 777:
+
+while Guess_Num != secret_number:  
     
+    while Guess_Num == 7: 
+        print ("Getting close muggle")
+        Guess_Num = int (input("Guess the number: "))
+   
     print ("Ha ha! You're stuck in my loop!")
     Guess_Num = int (input("Guess the number: "))
+    
+
+    # While loop to define the getting close message
 
 # Final message when the number is right
 else: 
