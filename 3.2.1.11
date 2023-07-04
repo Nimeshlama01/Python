@@ -1,0 +1,20 @@
+#empty string for the wihtout vowels variable
+word_without_vowels = ""
+
+#user input
+user_word = input ("Please enter your word: ")
+
+#making the input upperclass
+user_word = user_word.upper()
+
+#for loop statement
+for letter in user_word:
+    
+    if letter in ("AEIOU"): #we can use this or (AEIOUS)as it is trying to match the string
+        continue
+    word_without_vowels += letter #concatenate the letters in the variable 
+    
+    # Complete the body of the loop.
+
+# Print the word assigned to word_without_vowels.
+print (word_without_vowels)
