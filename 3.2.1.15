@@ -1,0 +1,20 @@
+#c0 variable as an int 
+c0 = int (input("Please enter your number:")) 
+
+#if statement to declare when the c0 is less than 1 
+if c0 < 1:
+    print ("Use a a non-zero number")
+    exit
+#steps counter
+steps = 0 
+#while loop to 
+while c0 != 1:
+    if c0 % 2 == 0:
+        c0 = c0//2
+    else:
+        c0 = (3 * c0) + 1
+        
+    print (c0)
+    steps += 1
+
+print ("number of steps: ", steps)
