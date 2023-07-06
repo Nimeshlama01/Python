@@ -1,20 +1,23 @@
 #c0 variable as an int 
 c0 = int (input("Please enter your number:")) 
 
-#if statement to declare when the c0 is less than 1 
+#if statement to declare when the c0 is less than 1 it will exit the programme
 if c0 < 1:
     print ("Use a a non-zero number")
     exit
-#steps counter
+
+#steps counter to count all the steps on the loop until it is 1 
 steps = 0 
-#while loop to 
+
+
+#while loop when the number entered is not 1 and greater then 1
 while c0 != 1:
     if c0 % 2 == 0:
         c0 = c0//2
     else:
-        c0 = (3 * c0) + 1
-        
+        c0 = (3 * c0) + 1        
     print (c0)
     steps += 1
 
-print ("number of steps: ", steps)
+#print total steps it took to get to 1
+print ("Number of steps: ", steps)
