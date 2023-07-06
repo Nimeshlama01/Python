@@ -1,0 +1,14 @@
+blocks = int(input("Enter the number of blocks: "))
+
+#
+# Write your code here.
+#
+height = 0 #starting as height 0 
+
+# While loop which starts when the blocks are greater than 0 
+while blocks > height: 
+    height = height + 1 #this makes more sense when the blocks are 2, so having height to be calculated first makes more sense
+    blocks = blocks - height
+    
+    
+print("The height of the pyramid:", height)
